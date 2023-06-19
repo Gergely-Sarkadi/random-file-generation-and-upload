@@ -4,7 +4,7 @@ from azure.storage.blob import BlobServiceClient
 from dotenv import load_dotenv
 
 
-def upload_files(num_of_files=1):
+def upload_files(num_of_files=10):
     """Upload the previously generated files to the given Azure Blob Storage"""
 
     load_dotenv()

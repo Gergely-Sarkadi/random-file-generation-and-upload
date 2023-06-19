@@ -1,3 +1,4 @@
 .env
-testkeya
+testkey
 generated_files/
+*.txt
